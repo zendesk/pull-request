@@ -9,9 +9,9 @@ inputs:
     description: Branch name to pull from, default is triggered branch
     required: false
   destination_branch:
-    description: Branch name to sync to in this repo, default is master
+    description: Branch name to sync to in this repo, default is main
     required: false
-    default: master
+    default: main
   pr_title:
     description: Pull request title
     required: false
